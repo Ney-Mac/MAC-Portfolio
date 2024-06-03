@@ -1,0 +1,26 @@
+{
+    "about": {
+        "title": "Sobre",
+        "paragraphs": [
+            "Olá, sou Manuel Armando Cariongo, um desenvolvedor de software apaixonado por criar soluções inovadoras e escaláveis. Com uma sólida experiência em desenvolvimento de aplicativos móveis e web, domino tecnologias como TypeScript, JavaScript, Java, React, React Native, MySQL, MongoDB, entre outras, atuando tanto no back-end quanto no front-end de sistemas.",
+            "Estou a meio da minha licenciatura em Engenharia Informática pelo ISPTEC, onde tenho a oportunidade de desenvolver meus conhecimentos em várias áreas da informática, que envolvem desenvolvimento de softwares de alto nível (web, mobile, desktop), desenvolvimento de sistemas de baixo nível (sistemas operativos, compiladores, etc), redes de computadores, análise de dados (IA) e outras.",
+            "De janeiro a setembro de 2022, tive a oportunidade de estagiar na Tecno Society como desenvolvedor mobile, onde pude aplicar de forma prática meus conhecimentos e, principalmente, aprender muito sobre a dinâmica do mercado de trabalho e o dia a dia de um software developer. Após a finalização do estágio, ingressei como membro efetivo da mesma empresa, atuando não só como desenvolvedor mobile, mas também como desenvolvedor back-end. Para essas funções, utilizo principalmente React Native, Node.js e Spring Boot.",
+            "Ao longo desse período, tenho trabalhado em diversos projetos não remunerados, atuando como desenvolvedor mobile, back-end e front-end.",
+            "Estou em busca de uma oportunidade como Desenvolvedor Full-Stack, Front-End ou Back-End, onde possa aplicar minha experiência e habilidades para criar experiências de usuário excepcionais. Sou dedicado, proativo e sempre em busca de crescimento profissional, pronto para enfrentar novos desafios e aprender com equipes experientes.",
+            "Se você procura um profissional comprometido e com grande vontade de crescer, entre em contato! Estou entusiasmado em discutir como posso contribuir para o sucesso do seu próximo projeto."
+        ]
+    },
+    "sideBar": {
+        "title": "Desenvolvedor de Software",
+        "phone": "Telefone",
+        "location": "Localização",
+        "downloadButton": "Download currículo"
+    },
+    "technologies": {
+        "title": "Tecnologias"
+    },
+    "projects": {
+        "title": "Projetos",
+        "seeProjectsButton": "Ver Projetos"
+    }
+}

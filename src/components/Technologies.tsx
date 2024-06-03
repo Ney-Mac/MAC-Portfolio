@@ -7,6 +7,8 @@ import {
     DiReact
 } from 'react-icons/di';
 
+import { useTranslation } from 'react-i18next';
+
 import '../assets/styles/components/technologies.sass';
 
 const technologies = [
@@ -19,9 +21,11 @@ const technologies = [
 ]
 
 export default () => {
+    const { t } = useTranslation();
+
     return (
         <section className='technologies-container'>
-            <h2>Tecnologias</h2>
+            <h2>{t('technologies.title')}</h2>
 
             <div className="technologies-grid">
                 {technologies.map(tech => (

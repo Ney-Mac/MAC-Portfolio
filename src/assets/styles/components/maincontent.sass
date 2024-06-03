@@ -27,6 +27,9 @@
         margin-bottom: 1rem
         line-height: 1.4rem
 
+        @media screen and (max-width: 500px)
+            @include mixins.text-justify
+
     .btn
         @include mixins.btn
         align-self: start

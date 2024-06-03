@@ -1,0 +1,30 @@
+@use '../variables'
+@use '../mixins'
+
+.lang-button-container
+    width: 100%
+    display: flex
+    justify-content: flex-end
+
+    .lang-button
+        background-color: variables.$bg-color
+        display: flex
+        flex-direction: row
+        gap: 0.5rem
+        border-radius: 3rem
+        border: 5px solid variables.$bg-color
+        height: 36px
+        width: 6rem
+
+        button
+            border: none
+            background: transparent
+            color: #fff
+            z-index: 2
+            cursor: pointer
+            flex: 1
+            position: relative
+
+            &.active
+                background: variables.$gradient
+                border-radius: 3rem

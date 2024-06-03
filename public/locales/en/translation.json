@@ -1,0 +1,26 @@
+{
+    "about": {
+        "title": "About",
+        "paragraphs": [
+            "Hello, I'm Manuel Armando Cariongo, a software developer passionate about creating innovative and scalable solutions. With solid experience in mobile and web application development, I master technologies such as TypeScript, JavaScript, Java, React, React Native, MySQL, MongoDB, among others, working on both the back-end and front-end of systems.",
+            "I am currently pursuing a degree in Computer Engineering at ISPTEC, where I have the opportunity to develop my knowledge in various areas of computer science, including high-level software development (web, mobile, desktop), low-level systems development (operating systems, compilers, etc.), computer networks, data analysis (AI), and more.",
+            "From January to September 2022, I had the opportunity to intern at Tecno Society as a mobile developer, where I was able to practically apply my knowledge and, most importantly, learn a lot about the dynamics of the job market and the daily life of a software developer. After completing the internship, I became a full member of the same company, working not only as a mobile developer but also as a back-end developer. For these roles, I mainly use React Native, Node.js, and Spring Boot.",
+            "Throughout this period, I have worked on several non-paid projects, acting as a mobile, back-end, and front-end developer.",
+            "I am seeking an opportunity as a Full-Stack, Front-End, or Back-End Developer, where I can apply my experience and skills to create exceptional user experiences. I am dedicated, proactive, and always looking for professional growth, ready to face new challenges and learn from experienced teams.",
+            "If you are looking for a committed professional with a strong desire to grow, please get in touch! I am excited to discuss how I can contribute to the success of your next project."
+        ]
+    },
+    "sideBar": {
+        "title": "Software Developer",
+        "phone": "Phone",
+        "location": "Location",
+        "downloadButton": "Download curriculum"
+    },
+    "technologies": {
+        "title": "Technologies"
+    },
+    "projects": {
+        "title": "Projects",
+        "seeProjectsButton": "See Projects"
+    }
+}
