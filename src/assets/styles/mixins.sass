@@ -13,6 +13,8 @@
     border-radius: 3rem
     overflow-wrap: normal
     word-break: keep-all
+    @include transform-scale(1.1)
+    
 
 @mixin gradient-border
     content: ""
@@ -22,3 +24,8 @@
 
 @mixin text-justify
     text-align: justify
+
+@mixin transform-scale($scale)
+    transition: transform 0.5s ease
+    &:hover
+        transform: scale($scale)

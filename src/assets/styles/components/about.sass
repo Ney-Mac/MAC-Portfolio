@@ -1,0 +1,28 @@
+@use '../mixins'
+@use '../variables'
+
+.about-container
+    position: relative
+
+    .about-text-container
+        display: grid
+        grid-template-rows: 0fr
+        transition: grid-template-rows 0.5s ease-out
+
+        &.show-text
+            grid-template-rows: 1fr
+
+        .about-text
+            overflow: hidden
+
+    .show-text-button
+        background: linear-gradient(to bottom, transparent, rgba(255, 255, 255, 0.2))
+        transition: transform 0.5s
+        position: absolute
+        cursor: pointer
+        color: #fff
+        height: 1rem
+        border: none
+        width: 100%
+        bottom: 0
+        @include mixins.center

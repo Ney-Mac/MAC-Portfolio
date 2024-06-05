@@ -1,0 +1,16 @@
+@use '../variables'
+@use '../mixins'
+
+.scrollToTop-button
+    background: variables.$gradient
+    width: 52px
+    height: 52px
+    position: fixed
+    bottom: 2rem
+    right: 2rem
+    border: none
+    color: #fff
+    border-radius: 50%
+    @include mixins.center
+    @include mixins.transform-scale(1.15)
+    
