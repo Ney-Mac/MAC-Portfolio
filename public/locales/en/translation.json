@@ -17,10 +17,14 @@
         "downloadButton": "Download curriculum"
     },
     "technologies": {
-        "title": "Technologies"
+        "title": "Technologies",
+        "descriptor": "experience",
+        "year": "year"
     },
     "projects": {
         "title": "Projects",
-        "seeProjectsButton": "See Projects"
+        "seeProjectsButton": "See Projects",
+        "hideProjectsButton": "Hide projects",
+        "introduction": "I've worked on several different projects, giving my best effort in each of them and contributing with quality in every line of code. Below are listed some of the projects I've worked on."
     }
 }

@@ -2,7 +2,7 @@
 @use '../mixins'
 
 .technologies-container
-    margin-bottom: 1rem
+    margin: 1rem 0
 
     .technologies-grid
         display: flex
@@ -24,6 +24,19 @@
             svg
                 font-size: 6rem
 
+            .technology-info
+                span
+                    font-weight: bold
+                    font-size: 1.05rem
+            
+            @media screen and (max-width: 900px) and (min-width: 720px)
+                flex-direction: column
+
+                .technology-info
+                    @include mixins.center
+                    flex-direction: column
+                    
+
         #html
             svg
                 color: #E44D26
@@ -44,9 +57,35 @@
             svg
                 color: #00618a
 
-        #react
+        #react, #react-native
             svg
                 color: #61dafb
+
+        #ts
+            svg
+                color: #007ACC
+        
+        #mongo
+            svg
+                color: #47A248
+        
+        #sass
+            svg
+                color: #7952B3
+        
+        #bootstrap
+            svg
+                color: #7952B3
+        
+        #spring
+            svg
+                color: #138B2E
+        
+        #java
+            svg
+                color: #D00000
+        
+        
 
         @media screen and (max-width: 720px)
             flex-direction: column

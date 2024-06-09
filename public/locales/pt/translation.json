@@ -17,10 +17,14 @@
         "downloadButton": "Download currículo"
     },
     "technologies": {
-        "title": "Tecnologias"
+        "title": "Tecnologias",
+        "descriptor": "experiência",
+        "year": "ano"
     },
     "projects": {
         "title": "Projetos",
-        "seeProjectsButton": "Ver Projetos"
+        "seeProjectsButton": "Ver Projetos",
+        "hideProjectsButton": "Ocultar Projetos",
+        "introduction": "Trabalhei em diversos projetos diferentes, dando o meu melhor em cada um deles e contribuindo com qualidade em cada linha de código. Abaixo, estão listados alguns dos projetos em que trabalhei."
     }
 }

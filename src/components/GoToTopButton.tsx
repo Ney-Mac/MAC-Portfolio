@@ -26,7 +26,12 @@ export default () => {
 
     return (
         <>
-            {showButton && <button className="scrollToTop-button" onClick={scrollToTop}>
+            {showButton && <button
+                className="scrollToTop-button"
+                onClick={scrollToTop}
+                title="Voltar ao topo"
+                type="button"
+            >
                 <FaChevronUp size="1.2rem" />
             </button>}
         </>
